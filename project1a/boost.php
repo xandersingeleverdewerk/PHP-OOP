@@ -22,7 +22,7 @@ $house1->setHeight(7.5);
 print $house1->getHeight();
 print ("<br>");
 $house1->setPrice(44.24);
-print $house1->calculatePrice();
+print $house1->getPrice();
 print ("<br>");
 print ("<br>");
 
@@ -45,7 +45,7 @@ $house2->setHeight(2.60);
 print $house2->getHeight();
 print ("<br>");
 $house2->setPrice(44.24);
-print $house2->calculatePrice();
+print $house2->getPrice();
 print ("<br>");
 print ("<br>");
 
@@ -68,4 +68,4 @@ $house3->setHeight(5);
 print $house3->getHeight();
 print ("<br>");
 $house3->setPrice(44.24);
-print $house3->calculatePrice();
+print $house3->getPrice();
