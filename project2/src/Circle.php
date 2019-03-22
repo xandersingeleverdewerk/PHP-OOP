@@ -31,7 +31,7 @@ class Circle extends Figure
                                width: $this->widthLine;
                                height: $this->heightLine;
                                background-color: $this->color;
-							   border-radius: 50%;
+			       border-radius: 50%;
                            }
                        </style>
                    </head>
