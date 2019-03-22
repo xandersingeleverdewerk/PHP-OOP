@@ -1,5 +1,4 @@
 <?php
-
 require_once 'vendor/autoload.php';
 use opdracht1\House;
 
@@ -27,7 +26,7 @@ $house3->setDepth(11);
 $house3->setHeight(5);
 $house3->setPrice(44.24);
 
-print "house 1";
+print "house 1"."<br><br>";
 print $house1->getNumberOfFloors();
 print $house1->getNumberOfRooms();
 print $house1->getWidth();
@@ -35,7 +34,7 @@ print $house1->getDepth();
 print $house1->getHeight();
 print $house1->getPrice()."<br>";
 
-print "house 2";
+print "house 2"."<br><br>";
 print $house2->getNumberOfFloors();
 print $house2->getNumberOfRooms();
 print $house2->getWidth();
@@ -43,7 +42,7 @@ print $house2->getDepth();
 print $house2->getHeight();
 print $house2->getPrice()."<br>";
 
-print "house 3";
+print "house 3"."<br><br>";
 print $house3->getNumberOfFloors();
 print $house3->getNumberOfRooms();
 print $house3->getWidth();
