@@ -18,7 +18,7 @@ class House
 
     public function getNumberOfFloors()
     {
-        return "numbers of floors = ".$this->number_of_floors;
+        return "numbers of floors = ".$this->number_of_floors."<br>";
     }
 
     public function setNumberOfRooms($number_of_rooms)
@@ -28,7 +28,7 @@ class House
 
     public function getNumberOfRooms()
     {
-        return "numbers of rooms = ".$this->number_of_rooms;
+        return "numbers of rooms = ".$this->number_of_rooms."<br>";
     }
 
     public function setWidth($width)
@@ -38,7 +38,7 @@ class House
 
     public function getWidth()
     {
-        return "width = ".$this->width;
+        return "width = ".$this->width."<br>";
     }
 
     public function setDepth($depth)
@@ -48,7 +48,7 @@ class House
 
     public function getDepth()
     {
-        return "depth = ".$this->depth;
+        return "depth = ".$this->depth."<br>";
     }
 
     public function setHeight($height)
@@ -58,7 +58,7 @@ class House
 
     public function getHeight()
     {
-        return "height = ".$this->height;
+        return "height = ".$this->height."<br>";
     }
 
     public function setPrice($price)
@@ -69,6 +69,6 @@ class House
     public function getPrice()
     {
         $this->price = $this->price * ($this->width * $this->height * $this->depth);
-        return "Price = ".$this->price;
+        return "Price = ".$this->price."<br>";
     }
 }
