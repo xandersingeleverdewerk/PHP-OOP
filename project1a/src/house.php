@@ -1,7 +1,5 @@
 <?php
-
 namespace opdracht1;
-
 class House
 {
     private $number_of_floors;
@@ -38,7 +36,7 @@ class House
 
     public function getWidth()
     {
-        return "width = ".$this->width."<br>";
+        return "width = ".$this->width."m<br>";
     }
 
     public function setDepth($depth)
@@ -48,7 +46,7 @@ class House
 
     public function getDepth()
     {
-        return "depth = ".$this->depth."<br>";
+        return "depth = ".$this->depth."m<br>";
     }
 
     public function setHeight($height)
@@ -58,7 +56,7 @@ class House
 
     public function getHeight()
     {
-        return "height = ".$this->height."<br>";
+        return "height = ".$this->height."m<br>";
     }
 
     public function setPrice($price)
@@ -69,6 +67,6 @@ class House
     public function getPrice()
     {
         $this->price = $this->price * ($this->width * $this->height * $this->depth);
-        return "Price = ".$this->price."<br>";
+        return "Price = €".$this->price."<br>";
     }
 }
