@@ -34,7 +34,6 @@ $teacher1->addNumberOfTeachers($group1);
 $group1->addGroup($student1);
 $group1->addCollectedMoney($student1);
 $group1->addCollectedMoneyPerClass($student1);
-$schooltrip1->addTripList($schooltripList1);
 $schooltripList1->addStudentList($student1);
 $schooltripList1->addClass($group1);
 $schooltripList1->addTeacher($teacher1);
@@ -48,7 +47,6 @@ print $student1->getLastName()."<br>";
 print $student1->getPaid()."<br>";
 print $student1->getClassname()."<br><br>";
 
-print $schooltrip1->getTripList()."<br>";
 print $schooltrip1->getName()."<br><br>";
 
 print $group1->getName()."<br>";
